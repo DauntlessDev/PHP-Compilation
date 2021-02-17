@@ -1,0 +1,15 @@
+*{
+    font-size: 13px;
+}
+.row{
+    display: inline-block;
+    align-self: start;
+    justify-content: baseline;
+}
+.row *{
+
+}
+
+.inputfield {
+    height: 20px;
+}

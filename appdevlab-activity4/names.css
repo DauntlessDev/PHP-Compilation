@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    font-size: 15px;
+}
+
+table{
+    margin: 20px auto;
+}
+
+th{
+    padding: 15px;
+    background-color: rgb(241, 164, 164);
+}
+
+td {
+    padding: 15px;
+    background-color: rgb(255, 228, 228);
+}

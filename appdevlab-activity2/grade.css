@@ -1,0 +1,28 @@
+.form-wrapper {
+    margin : 50px auto 50px;
+    width: 524px;
+}
+
+.table-wrapper {
+    margin : 50px auto 50px;
+    width: min-content;
+    background-color: rgb(223, 235, 246);
+    text-align: center;
+}
+.rectangle {
+        border: solid darkblue 2px;
+        width: 524px;
+        height: 75px;
+        padding: 10px;
+}
+
+.box {
+    border: solid darkblue 2px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.inline-div{
+    display: inline-flex;
+}

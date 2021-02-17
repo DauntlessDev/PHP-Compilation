@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registration.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="POST">
+      <div class="row">
+        <label for="input">For School Use - Permision to Register:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Date:</label>
+        <input class="inputfield" type="text" />
+        <input type="checkbox" />
+        <label for="esl">ESL</label>
+        <input type="checkbox" />
+        <label for="esl">SPED</label>
+        <input type="checkbox" />
+        <label for="esl">IPRC</label>
+        <input type="checkbox" />
+        <label for="esl">ISA</label>
+      </div>
+      <div class="row">
+        <label for="input">Student Number:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Entry Date:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Entry Type:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Grade:</label>
+        <input class="inputfield" type="text" />
+      </div>
+      <div class="row">
+        <label for="input">OEN:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Class/Homeform</label>
+        <input class="inputfield" type="text" />
+      </div>
+      <div class="row">
+        <p>Is the student currently expelled from any school or school bard</p>
+        <input type="checkbox" />
+        <label for="input">Yes</label>
+        <input type="checkbox" />
+        <label for="input">No</label>
+      </div>
+      
+      <div class="row">
+        <p>Full Legal Name</p>
+        <label for="input">Last Name:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">First Name:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Middle Name:</label>
+        <input class="inputfield" type="text" />
+      </div>
+      <div class="row">
+        <p>Preferred Name (if different):</p>
+        <label for="input">Last Name:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">First Name:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Middle Name:</label>
+        <input class="inputfield" type="text" />
+      </div>
+      <div class="row">
+        <p>Gender</p>
+        <input type="radio" />
+        <label for="input">Male</label>
+        <input type="radio" />
+        <label for="input">Female</label>
+        <!--padding here-->
+        <!-- <p>Date of Birth</p>
+        <label for="input">Year:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Month:</label>
+        <input class="inputfield" type="text" />
+        <label for="input">Day:</label>
+        <input class="inputfield" type="text" /> -->
+        <fieldset>
+            <label>Birthday</label>
+             <label class="month"> 
+             <select class="select-style" name="BirthMonth">
+             <option value="">Month</option>
+             <option value="01">January</option>
+             <option value="02">February</option>
+             <option value="03">March</option>
+             <option value="04">April</option>
+             <option value="05">May</option>
+             <option value="06">June</option>
+             <option value="07">July</option>
+             <option value="08">August</option>
+             <option value="09">September</option>
+             <option value="10">October</option>
+             <option value="11">November</option>
+             <option value="12">December</option>
+             </label>
+            </select>    
+           <label>Day<input class="birthday" maxlength="2" name="BirthDay" placeholder="Day" required=""></label>
+           <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
+         </fieldset>
+        <!--padding here-->
+        <label for="input">If the student has other siblings in school, please list them:</label>
+        <textarea class="textarea" rows="4" cols="50" >
+        </textarea>
+      </div>
+      
+
+      <input class="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

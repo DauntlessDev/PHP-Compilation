@@ -1,0 +1,19 @@
+body {
+    
+    background-color: rgb(241, 239, 255);
+}
+table {
+    margin: 0 auto;
+    /* text-align: center; */
+    border: 1px solid black;
+    background-color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.info {
+    font-size: .9em;
+}
