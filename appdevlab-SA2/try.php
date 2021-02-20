@@ -1,13 +1,1 @@
-<?php 
-
-
-
-  $s = 'var';
-  function f() {
-      function f2() {
-          echo 'hello';
-      }
-  }
-  f();
-  f2();
-?>
+<form action=”<?php echo $_SERVER['PHP_SELF'] ?>” method=”post”></form>
